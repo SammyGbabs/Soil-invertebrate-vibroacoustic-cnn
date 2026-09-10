@@ -1,0 +1,24 @@
+# ── Data — never commit (large, and belongs to the research project) ──
+*.wav
+*.WAV
+*.npz
+features/
+features_v2/
+features_season2/
+panns_embeddings/
+panns_checkpoints/
+
+# ── Trained models (large; stored on Drive) ──
+*.pt
+*.pth
+
+# ── Colab / Jupyter ──
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# ── OS / editor cruft ──
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
